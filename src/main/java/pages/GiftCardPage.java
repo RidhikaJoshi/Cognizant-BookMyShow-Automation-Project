@@ -3,7 +3,6 @@ package pages;
 import base.DriverSetup;
 import base.ConfigLoader;
 import locators.LocatorRepository;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;

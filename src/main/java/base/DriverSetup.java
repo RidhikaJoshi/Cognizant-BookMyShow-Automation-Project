@@ -4,8 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.*;
-
 import java.time.Duration;
 
 public class DriverSetup {
@@ -19,8 +19,8 @@ public class DriverSetup {
     public static String getBrowserName() {
         return browserName.get();
     }
-    @Parameters("browser")
-    @BeforeMethod
+    @Parameters("browser") // which browser to run
+    @BeforeMethod // Runs before every test method to set up the browser.
     //@BeforeClass
     public void setup(@Optional("chrome") String browser) {
         WebDriver drv;
@@ -32,7 +32,7 @@ public class DriverSetup {
             case "edge":
                 drv = new EdgeDriver();
                 break;
-            case "chrome":
+            // case "chrome":
             default:
                 drv = new ChromeDriver();
                 break;
@@ -47,7 +47,7 @@ public class DriverSetup {
         System.out.println(browser + " browser launched.");
     }
 
-    @AfterMethod
+    @AfterMethod //Runs after every test method to close the browser.
     //@AfterClass
     public void tearDown() {
         if (driver.get() != null) {

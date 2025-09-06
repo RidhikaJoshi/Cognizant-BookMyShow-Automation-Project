@@ -1,11 +1,15 @@
 package pages;
 
 import base.DriverSetup;
-import base.ConfigLoader;
-import locators.LocatorRepository;
-import org.openqa.selenium.*;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+
+
+import base.ConfigLoader;
+import locators.LocatorRepository;
 import utils.WaitUtils;
 
 public class LoginPage {

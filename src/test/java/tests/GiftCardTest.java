@@ -1,8 +1,5 @@
 package tests;
-
-import base.ConfigLoader;
 import base.DriverSetup;
-import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.CityPage;
 import pages.GiftCardPage;
