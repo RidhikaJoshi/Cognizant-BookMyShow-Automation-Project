@@ -16,7 +16,7 @@ public class ExtentManager {
 
             extent = new ExtentReports();
             extent.attachReporter(reporter);
-            extent.setSystemInfo("Tester", "Praveen Krishna");
+            extent.setSystemInfo("Tester", "Ridhika Joshi");
             extent.setSystemInfo("Environment", "QA");
             
             String browser = DriverSetup.getBrowserName();

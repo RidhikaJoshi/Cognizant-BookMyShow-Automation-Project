@@ -432,4 +432,3 @@ public class qeaBMS {
         //selectCityByIcon("Chandigarh");
     }
 }
-

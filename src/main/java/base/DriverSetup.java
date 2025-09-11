@@ -21,7 +21,6 @@ public class DriverSetup {
     }
     @Parameters("browser") // which browser to run
     @BeforeMethod // Runs before every test method to set up the browser.
-    //@BeforeClass
     public void setup(@Optional("chrome") String browser) {
         WebDriver drv;
 
@@ -32,7 +31,7 @@ public class DriverSetup {
             case "edge":
                 drv = new EdgeDriver();
                 break;
-            // case "chrome":
+           
             default:
                 drv = new ChromeDriver();
                 break;
@@ -48,7 +47,6 @@ public class DriverSetup {
     }
 
     @AfterMethod //Runs after every test method to close the browser.
-    //@AfterClass
     public void tearDown() {
         if (driver.get() != null) {
             driver.get().quit();
