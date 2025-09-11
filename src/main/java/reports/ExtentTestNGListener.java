@@ -22,7 +22,8 @@ public class ExtentTestNGListener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        test.get().log(Status.PASS, "Test Passed");
+    	//System.out.println("Listeneres");
+    	test.get().log(Status.PASS, "Test Passed");
     }
 
     @Override

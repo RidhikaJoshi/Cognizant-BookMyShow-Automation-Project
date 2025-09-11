@@ -4,6 +4,7 @@ import base.DriverSetup;
 import org.testng.annotations.*;
 import pages.CityPage;
 import pages.LoginPage;
+import utils.ExcelUtils;
 
 public class LoginTest extends DriverSetup {
 
@@ -19,10 +20,19 @@ public class LoginTest extends DriverSetup {
         // Select city before every test
         city.selectCity();
     }
+    
+ // DataProvider that fetches mobile + OTP from Excel
+    @DataProvider(name = "loginData")
+    public Object[][] getData() {
+        String filePath = "resources/testdata/DataSource.xlsx";
+        return ExcelUtils.getSheetData(filePath, "Login");
+    }
 
-    @Test
-    public void testLoginWithValidMobile() {
-        login.validSignIn();
+    
+    // Test that runs for every row in Excel
+    @Test(dataProvider = "loginData")
+    public void testLoginWithValidMobile(String mobileNumber, String otp) {
+        login.validSignIn(mobileNumber, otp);
     }
 
     @Test
@@ -30,9 +40,10 @@ public class LoginTest extends DriverSetup {
         login.signInInvalid();
     }
 
-    @Test
-    public void testLoginUIElements() {
-        login.verifySignInUI();
+ // Test that runs for every row in Excel
+    @Test(dataProvider = "loginData")
+    public void testLoginUIElements(String mobileNumber, String otp) {
+        login.verifySignInUI(mobileNumber, otp);
     }
     
 }
