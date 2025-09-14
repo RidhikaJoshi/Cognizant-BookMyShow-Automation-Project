@@ -41,7 +41,7 @@ public class MoviePage {
                     ((JavascriptExecutor) driver).executeScript("arguments[0].click();", movie);
                 }
 
-                Thread.sleep(2000); // wait for page to load
+                Thread.sleep(2000);
 
                 // Handle bug page
                 if (driver.getPageSource().contains("Sorry for bug-ging")) {
@@ -82,7 +82,7 @@ public class MoviePage {
             WebElement el = WaitUtils.clickable(link, 10);
             Assert.assertNotNull(el, "Menu item '" + m + "' not found");
 
-            // Try normal click, fallback to JS click
+            // Trying normal click, fallback to JS click
             try {
                 el.click();
             } catch (ElementNotInteractableException e) {

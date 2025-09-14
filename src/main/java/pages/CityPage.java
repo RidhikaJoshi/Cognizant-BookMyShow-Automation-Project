@@ -14,7 +14,7 @@ public class CityPage {
     private String previousCity = null;
 
     public CityPage() {
-        this.driver = DriverSetup.getDriver();  // ThreadLocal driver from DriverSetup
+        this.driver = DriverSetup.getDriver();  
         PageFactory.initElements(driver, this);
         System.out.println("CityPage initialized with WebDriver instance: " + driver.getClass().getSimpleName());
     }
