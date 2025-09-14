@@ -23,12 +23,15 @@ pipeline {
             steps {
                 // Archive test results & HTML reports
                 junit '**/target/surefire-reports/*.xml'
-                publishHTML([allowMissing: false,
+                publishHTML([
+					allowMissing: false,
                     alwaysLinkToLastBuild: true,
                     keepAll: true,
-                    reportDir: 'reports'
+                    reportDir: 'test-output'
 					reportFiles: 'ExtentReport.html'
-                    reportName: 'Extent Report'])
+                    reportName: 'Extent Report'
+                    reportTitles: 'Automation Test Execution Report'
+                ])
             }
         }
     }
