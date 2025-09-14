@@ -22,7 +22,7 @@ public class qeaBMS {
 
         // Short wait to allow UI to update after entering the city
         try {
-            Thread.sleep(1000); // Replace with WebDriverWait if needed
+            Thread.sleep(1000); 
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
