@@ -28,12 +28,12 @@ public class LoginPage {
         Assert.assertNotNull(signInBtn, "'Sign In' button not found");
         signInBtn.click();
 
-        WebElement mobileBox = WaitUtils.visible(LocatorRepository.get("invalidMobileNumberBox"), 10);
+        WebElement mobileBox = WaitUtils.visible(LocatorRepository.get("mobileNumberBox"), 10);
         Assert.assertNotNull(mobileBox, "Invalid mobile number input box not found");
         mobileBox.clear();
-        mobileBox.sendKeys(ConfigLoader.get("invalidMobile"));
-
-        WebElement errorMsg = WaitUtils.visible(LocatorRepository.get("invalidErrorMsg"), 10);
+        mobileBox.sendKeys("1234567891");
+       
+        WebElement errorMsg = WaitUtils.visible(LocatorRepository.get("invalidErrorMsg"), 20);
         Assert.assertTrue(errorMsg.isDisplayed(), "No error for invalid mobile number");
         System.out.println("Error Message displayed: " + errorMsg.getText());
     }

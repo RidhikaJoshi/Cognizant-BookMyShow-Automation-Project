@@ -24,7 +24,7 @@ public final class LocatorRepository {
 
         // Invalid Sign In
         L.put("invalidMobileNumberBox", By.id("userMobileNumber"));
-        L.put("invalidErrorMsg", By.xpath("//div[@class='sc-z1ldnh-12 Qsrzn']"));
+        L.put("invalidErrorMsg", By.xpath("//div[contains(@class,'sc-z1ldnh-12') and contains(text(),'Invalid mobile number')]"));
 
         // Movie Search
         L.put("searchBox", By.xpath("//span[contains(text(),'Search for Movies')]"));

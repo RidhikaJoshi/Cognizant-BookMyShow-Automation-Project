@@ -7,6 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.*;
 import java.time.Duration;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverSetup {
 
@@ -26,13 +27,16 @@ public class DriverSetup {
 
         switch (browser.toLowerCase()) {
             case "firefox":
+            	System.setProperty("webdriver.gecko.driver", "C:\\Users\\user\\Downloads\\geckodriver-v0.36.0-win32\\geckodriver.exe");
                 drv = new FirefoxDriver();
                 break;
             case "edge":
+            	System.setProperty("webdriver.edge.driver", "C:\\Users\\user\\Downloads\\edgedriver_win64\\msedgedriver.exe");
                 drv = new EdgeDriver();
                 break;
            
             default:
+            	WebDriverManager.chromedriver().setup();
                 drv = new ChromeDriver();
                 break;
         }
