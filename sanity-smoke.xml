@@ -2,7 +2,7 @@
 <suite name="Smoke Suite" parallel="tests" thread-count="1">
 
    <test name="Chrome Tests">
-        <parameter name="browser" value="firefox"/>
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="tests.CityTest"/>
         </classes>
