@@ -4,28 +4,9 @@
   <listeners>
     <listener class-name="reports.ExtentTestNGListener"/>
   </listeners>
-  <test thread-count="3" parallel="tests" name="Firefox Tests(failed)">
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="3" parallel="tests" name="Chrome Tests(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.GiftCardTest">
-        <methods>
-          <include name="setupPagesAndSelectCity"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="testInvalidGiftVoucher"/>
-          <include name="testGiftCardSection"/>
-        </methods>
-      </class> <!-- tests.GiftCardTest -->
-      <class name="tests.CityTest">
-        <methods>
-          <include name="testViewAllCities"/>
-          <include name="testChangeLocation"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="testSelectCityByIcon"/>
-          <include name="testSearchAndSelectCity"/>
-        </methods>
-      </class> <!-- tests.CityTest -->
       <class name="tests.MovieTest">
         <methods>
           <include name="testTopMenuNavigation"/>
@@ -33,19 +14,8 @@
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="testUpcomingAndNowShowing"/>
-          <include name="testMovie8SelectRunningMovie"/>
         </methods>
       </class> <!-- tests.MovieTest -->
-      <class name="tests.LoginTest">
-        <methods>
-          <include name="setupPagesAndSelectCity"/>
-          <include name="testLoginWithValidMobile"/>
-          <include name="testLoginUIElements"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="testLoginWithInvalidMobile"/>
-        </methods>
-      </class> <!-- tests.LoginTest -->
     </classes>
-  </test> <!-- Firefox Tests(failed) -->
+  </test> <!-- Chrome Tests(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->

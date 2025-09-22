@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-21T15:09:43 IST" name="Regression Suite" finished-at="2025-09-21T15:15:01 IST" duration-ms="317877">
+  <suite started-at="2025-09-22T09:48:54 IST" name="Regression Suite" finished-at="2025-09-22T09:55:09 IST" duration-ms="374337">
     <groups>
     </groups>
-    <test started-at="2025-09-21T15:09:43 IST" name="Edge Tests" finished-at="2025-09-21T15:15:00 IST" duration-ms="316389">
+    <test started-at="2025-09-22T09:48:54 IST" name="Edge Tests" finished-at="2025-09-22T09:54:58 IST" duration-ms="363516">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:09:45 IST" name="setup" finished-at="2025-09-21T15:09:52 IST" duration-ms="6794" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:48:56 IST" name="setup" finished-at="2025-09-22T09:49:03 IST" duration-ms="6939" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:09:52 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:10:04 IST" duration-ms="11755" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:49:03 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:49:15 IST" duration-ms="11831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginUIElements(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:10:04 IST" name="testLoginUIElements" data-provider="loginData" finished-at="2025-09-21T15:10:06 IST" duration-ms="2451" status="PASS">
+        <test-method signature="testLoginUIElements(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:49:15 IST" name="testLoginUIElements" data-provider="loginData" finished-at="2025-09-22T09:49:18 IST" duration-ms="3391" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,11 +38,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUIElements -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:10:06 IST" name="tearDown" finished-at="2025-09-21T15:10:06 IST" duration-ms="381" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:49:18 IST" name="tearDown" finished-at="2025-09-22T09:49:19 IST" duration-ms="847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:10:06 IST" name="setup" finished-at="2025-09-21T15:10:12 IST" duration-ms="5702" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:49:19 IST" name="setup" finished-at="2025-09-22T09:49:27 IST" duration-ms="7856" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,11 +53,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:10:12 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:10:24 IST" duration-ms="11682" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:49:27 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:49:39 IST" duration-ms="12394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginUIElements(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:10:24 IST" name="testLoginUIElements" data-provider="loginData" finished-at="2025-09-21T15:10:27 IST" duration-ms="3064" status="PASS">
+        <test-method signature="testLoginUIElements(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:49:39 IST" name="testLoginUIElements" data-provider="loginData" finished-at="2025-09-22T09:49:43 IST" duration-ms="3775" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,11 +73,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUIElements -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:10:27 IST" name="tearDown" finished-at="2025-09-21T15:10:27 IST" duration-ms="455" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:49:43 IST" name="tearDown" finished-at="2025-09-22T09:49:44 IST" duration-ms="1033" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:10:27 IST" name="setup" finished-at="2025-09-21T15:10:36 IST" duration-ms="8936" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:49:44 IST" name="setup" finished-at="2025-09-22T09:49:52 IST" duration-ms="8197" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,11 +88,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:10:36 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:10:48 IST" duration-ms="11771" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:49:52 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:50:05 IST" duration-ms="12768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginUIElements(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:10:48 IST" name="testLoginUIElements" data-provider="loginData" finished-at="2025-09-21T15:10:51 IST" duration-ms="2857" status="PASS">
+        <test-method signature="testLoginUIElements(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:50:05 IST" name="testLoginUIElements" data-provider="loginData" finished-at="2025-09-22T09:50:10 IST" duration-ms="4487" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,11 +108,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUIElements -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:10:51 IST" name="tearDown" finished-at="2025-09-21T15:10:51 IST" duration-ms="429" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:50:10 IST" name="tearDown" finished-at="2025-09-22T09:50:12 IST" duration-ms="1932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:10:51 IST" name="setup" finished-at="2025-09-21T15:11:00 IST" duration-ms="8701" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:50:12 IST" name="setup" finished-at="2025-09-22T09:50:23 IST" duration-ms="11312" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,19 +123,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:11:00 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:11:12 IST" duration-ms="11650" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:50:23 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:50:35 IST" duration-ms="12206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginWithInvalidMobile()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:11:12 IST" name="testLoginWithInvalidMobile" finished-at="2025-09-21T15:11:13 IST" duration-ms="1817" status="PASS">
+        <test-method signature="testLoginWithInvalidMobile()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:50:35 IST" name="testLoginWithInvalidMobile" finished-at="2025-09-22T09:50:38 IST" duration-ms="2811" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithInvalidMobile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:11:13 IST" name="tearDown" finished-at="2025-09-21T15:11:14 IST" duration-ms="361" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:50:38 IST" name="tearDown" finished-at="2025-09-22T09:50:40 IST" duration-ms="1820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:11:14 IST" name="setup" finished-at="2025-09-21T15:11:21 IST" duration-ms="7551" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:50:40 IST" name="setup" finished-at="2025-09-22T09:50:49 IST" duration-ms="8690" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,11 +146,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:11:21 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:11:33 IST" duration-ms="11533" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:50:49 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:51:02 IST" duration-ms="13391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginWithValidMobile(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:11:33 IST" name="testLoginWithValidMobile" data-provider="loginData" finished-at="2025-09-21T15:11:36 IST" duration-ms="3026" status="PASS">
+        <test-method signature="testLoginWithValidMobile(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:51:02 IST" name="testLoginWithValidMobile" data-provider="loginData" finished-at="2025-09-22T09:51:05 IST" duration-ms="3279" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,11 +166,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidMobile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:11:36 IST" name="tearDown" finished-at="2025-09-21T15:11:36 IST" duration-ms="450" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:51:05 IST" name="tearDown" finished-at="2025-09-22T09:51:06 IST" duration-ms="595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:11:36 IST" name="setup" finished-at="2025-09-21T15:11:42 IST" duration-ms="5292" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:51:06 IST" name="setup" finished-at="2025-09-22T09:51:15 IST" duration-ms="8834" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,11 +181,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:11:42 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:11:53 IST" duration-ms="11647" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:51:15 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:51:27 IST" duration-ms="12604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginWithValidMobile(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:11:53 IST" name="testLoginWithValidMobile" data-provider="loginData" finished-at="2025-09-21T15:11:56 IST" duration-ms="2512" status="PASS">
+        <test-method signature="testLoginWithValidMobile(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:51:27 IST" name="testLoginWithValidMobile" data-provider="loginData" finished-at="2025-09-22T09:51:31 IST" duration-ms="3261" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -201,11 +201,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidMobile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:11:56 IST" name="tearDown" finished-at="2025-09-21T15:11:56 IST" duration-ms="401" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:51:31 IST" name="tearDown" finished-at="2025-09-22T09:51:31 IST" duration-ms="753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:11:56 IST" name="setup" finished-at="2025-09-21T15:12:05 IST" duration-ms="8966" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:51:31 IST" name="setup" finished-at="2025-09-22T09:51:39 IST" duration-ms="7798" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -216,11 +216,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:12:05 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:12:17 IST" duration-ms="11679" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:51:39 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:51:51 IST" duration-ms="12352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginWithValidMobile(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:12:17 IST" name="testLoginWithValidMobile" data-provider="loginData" finished-at="2025-09-21T15:12:19 IST" duration-ms="2507" status="PASS">
+        <test-method signature="testLoginWithValidMobile(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:51:51 IST" name="testLoginWithValidMobile" data-provider="loginData" finished-at="2025-09-22T09:51:55 IST" duration-ms="3343" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -236,13 +236,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidMobile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-21T15:12:19 IST" name="tearDown" finished-at="2025-09-21T15:12:20 IST" duration-ms="343" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@a37aefe]" started-at="2025-09-22T09:51:55 IST" name="tearDown" finished-at="2025-09-22T09:51:56 IST" duration-ms="793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.CityTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-21T15:12:20 IST" name="setup" finished-at="2025-09-21T15:12:25 IST" duration-ms="5449" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-22T09:51:56 IST" name="setup" finished-at="2025-09-22T09:52:06 IST" duration-ms="10259" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -253,15 +253,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testChangeLocation()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-21T15:12:25 IST" name="testChangeLocation" finished-at="2025-09-21T15:12:38 IST" duration-ms="12378" status="PASS">
+        <test-method signature="testChangeLocation()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-22T09:52:06 IST" name="testChangeLocation" finished-at="2025-09-22T09:52:19 IST" duration-ms="13411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testChangeLocation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-21T15:12:38 IST" name="tearDown" finished-at="2025-09-21T15:12:38 IST" duration-ms="383" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-22T09:52:19 IST" name="tearDown" finished-at="2025-09-22T09:52:21 IST" duration-ms="1251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-21T15:12:38 IST" name="setup" finished-at="2025-09-21T15:12:43 IST" duration-ms="5200" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-22T09:52:21 IST" name="setup" finished-at="2025-09-22T09:52:30 IST" duration-ms="9649" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -272,15 +272,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSearchAndSelectCity()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-21T15:12:43 IST" name="testSearchAndSelectCity" finished-at="2025-09-21T15:12:55 IST" duration-ms="11600" status="PASS">
+        <test-method signature="testSearchAndSelectCity()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-22T09:52:30 IST" name="testSearchAndSelectCity" finished-at="2025-09-22T09:52:42 IST" duration-ms="12130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchAndSelectCity -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-21T15:12:55 IST" name="tearDown" finished-at="2025-09-21T15:12:55 IST" duration-ms="417" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-22T09:52:42 IST" name="tearDown" finished-at="2025-09-22T09:52:43 IST" duration-ms="884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-21T15:12:55 IST" name="setup" finished-at="2025-09-21T15:13:01 IST" duration-ms="5343" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-22T09:52:43 IST" name="setup" finished-at="2025-09-22T09:52:49 IST" duration-ms="6181" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -291,15 +291,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSelectCityByIcon()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-21T15:13:01 IST" name="testSelectCityByIcon" finished-at="2025-09-21T15:13:01 IST" duration-ms="662" status="PASS">
+        <test-method signature="testSelectCityByIcon()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-22T09:52:49 IST" name="testSelectCityByIcon" finished-at="2025-09-22T09:52:51 IST" duration-ms="1221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSelectCityByIcon -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-21T15:13:01 IST" name="tearDown" finished-at="2025-09-21T15:13:02 IST" duration-ms="366" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-22T09:52:51 IST" name="tearDown" finished-at="2025-09-22T09:52:51 IST" duration-ms="581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-21T15:13:02 IST" name="setup" finished-at="2025-09-21T15:13:07 IST" duration-ms="5091" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-22T09:52:51 IST" name="setup" finished-at="2025-09-22T09:52:58 IST" duration-ms="6460" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -310,17 +310,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testViewAllCities()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-21T15:13:07 IST" name="testViewAllCities" finished-at="2025-09-21T15:13:08 IST" duration-ms="1513" status="PASS">
+        <test-method signature="testViewAllCities()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-22T09:52:58 IST" name="testViewAllCities" finished-at="2025-09-22T09:53:02 IST" duration-ms="3942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testViewAllCities -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-21T15:13:08 IST" name="tearDown" finished-at="2025-09-21T15:13:09 IST" duration-ms="366" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5d99c6b5]" started-at="2025-09-22T09:53:02 IST" name="tearDown" finished-at="2025-09-22T09:53:02 IST" duration-ms="625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CityTest -->
       <class name="tests.MovieTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-21T15:13:09 IST" name="setup" finished-at="2025-09-21T15:13:16 IST" duration-ms="7279" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-22T09:53:02 IST" name="setup" finished-at="2025-09-22T09:53:08 IST" duration-ms="6165" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -331,19 +331,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-21T15:13:16 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:13:27 IST" duration-ms="11631" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-22T09:53:08 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:53:20 IST" duration-ms="11631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testMovie8SelectRunningMovie()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-21T15:13:27 IST" name="testMovie8SelectRunningMovie" finished-at="2025-09-21T15:13:30 IST" duration-ms="2537" status="PASS">
+        <test-method signature="testMovie8SelectRunningMovie()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-22T09:53:20 IST" name="testMovie8SelectRunningMovie" finished-at="2025-09-22T09:53:25 IST" duration-ms="4761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMovie8SelectRunningMovie -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-21T15:13:30 IST" name="tearDown" finished-at="2025-09-21T15:13:30 IST" duration-ms="472" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-22T09:53:25 IST" name="tearDown" finished-at="2025-09-22T09:53:25 IST" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-21T15:13:30 IST" name="setup" finished-at="2025-09-21T15:13:36 IST" duration-ms="5195" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-22T09:53:25 IST" name="setup" finished-at="2025-09-22T09:53:37 IST" duration-ms="11452" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -354,19 +354,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-21T15:13:36 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:13:47 IST" duration-ms="11754" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-22T09:53:37 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:53:48 IST" duration-ms="11764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testTopMenuNavigation()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-21T15:13:47 IST" name="testTopMenuNavigation" finished-at="2025-09-21T15:14:03 IST" duration-ms="15169" status="PASS">
+        <test-method signature="testTopMenuNavigation()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-22T09:53:48 IST" name="testTopMenuNavigation" finished-at="2025-09-22T09:54:05 IST" duration-ms="16338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTopMenuNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-21T15:14:03 IST" name="tearDown" finished-at="2025-09-21T15:14:03 IST" duration-ms="435" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-22T09:54:05 IST" name="tearDown" finished-at="2025-09-22T09:54:05 IST" duration-ms="709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-21T15:14:03 IST" name="setup" finished-at="2025-09-21T15:14:09 IST" duration-ms="5566" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-22T09:54:05 IST" name="setup" finished-at="2025-09-22T09:54:11 IST" duration-ms="5946" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -377,21 +377,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-21T15:14:09 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:14:20 IST" duration-ms="11720" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-22T09:54:11 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:54:23 IST" duration-ms="11689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testUpcomingAndNowShowing()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-21T15:14:20 IST" name="testUpcomingAndNowShowing" finished-at="2025-09-21T15:14:23 IST" duration-ms="2397" status="PASS">
+        <test-method signature="testUpcomingAndNowShowing()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-22T09:54:23 IST" name="testUpcomingAndNowShowing" finished-at="2025-09-22T09:54:25 IST" duration-ms="1735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpcomingAndNowShowing -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-21T15:14:23 IST" name="tearDown" finished-at="2025-09-21T15:14:23 IST" duration-ms="453" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MovieTest@266374ef]" started-at="2025-09-22T09:54:25 IST" name="tearDown" finished-at="2025-09-22T09:54:25 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.MovieTest -->
       <class name="tests.GiftCardTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-21T15:14:23 IST" name="setup" finished-at="2025-09-21T15:14:29 IST" duration-ms="5378" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-22T09:54:25 IST" name="setup" finished-at="2025-09-22T09:54:29 IST" duration-ms="4117" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -402,19 +402,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-21T15:14:29 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:14:40 IST" duration-ms="11654" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-22T09:54:29 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:54:41 IST" duration-ms="11543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testGiftCardSection()[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-21T15:14:40 IST" name="testGiftCardSection" finished-at="2025-09-21T15:14:41 IST" duration-ms="396" status="PASS">
+        <test-method signature="testGiftCardSection()[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-22T09:54:41 IST" name="testGiftCardSection" finished-at="2025-09-22T09:54:41 IST" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGiftCardSection -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-21T15:14:41 IST" name="tearDown" finished-at="2025-09-21T15:14:41 IST" duration-ms="347" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-22T09:54:41 IST" name="tearDown" finished-at="2025-09-22T09:54:41 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-21T15:14:41 IST" name="setup" finished-at="2025-09-21T15:14:46 IST" duration-ms="5265" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-22T09:54:41 IST" name="setup" finished-at="2025-09-22T09:54:45 IST" duration-ms="3622" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -425,23 +425,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-21T15:14:46 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:14:58 IST" duration-ms="11633" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-22T09:54:45 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:54:56 IST" duration-ms="11418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testInvalidGiftVoucher()[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-21T15:14:58 IST" name="testInvalidGiftVoucher" finished-at="2025-09-21T15:14:59 IST" duration-ms="1530" status="PASS">
+        <test-method signature="testInvalidGiftVoucher()[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-22T09:54:56 IST" name="testInvalidGiftVoucher" finished-at="2025-09-22T09:54:58 IST" duration-ms="1127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidGiftVoucher -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-21T15:14:59 IST" name="tearDown" finished-at="2025-09-21T15:15:00 IST" duration-ms="405" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GiftCardTest@13b3d178]" started-at="2025-09-22T09:54:58 IST" name="tearDown" finished-at="2025-09-22T09:54:58 IST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.GiftCardTest -->
     </test> <!-- Edge Tests -->
-    <test started-at="2025-09-21T15:09:43 IST" name="Chrome Tests" finished-at="2025-09-21T15:15:01 IST" duration-ms="317877">
+    <test started-at="2025-09-22T09:48:54 IST" name="Chrome Tests" finished-at="2025-09-22T09:55:09 IST" duration-ms="374337">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:09:45 IST" name="setup" finished-at="2025-09-21T15:09:54 IST" duration-ms="8861" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:48:56 IST" name="setup" finished-at="2025-09-22T09:49:30 IST" duration-ms="33345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -452,11 +452,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:09:54 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:10:05 IST" duration-ms="11520" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:49:30 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:49:42 IST" duration-ms="12043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginUIElements(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:10:05 IST" name="testLoginUIElements" data-provider="loginData" finished-at="2025-09-21T15:10:08 IST" duration-ms="2927" status="PASS">
+        <test-method signature="testLoginUIElements(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:49:42 IST" name="testLoginUIElements" data-provider="loginData" finished-at="2025-09-22T09:49:46 IST" duration-ms="4012" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -472,11 +472,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUIElements -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:10:08 IST" name="tearDown" finished-at="2025-09-21T15:10:09 IST" duration-ms="464" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:49:46 IST" name="tearDown" finished-at="2025-09-22T09:49:47 IST" duration-ms="1496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:10:09 IST" name="setup" finished-at="2025-09-21T15:10:14 IST" duration-ms="4951" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:49:47 IST" name="setup" finished-at="2025-09-22T09:49:51 IST" duration-ms="4192" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -487,11 +487,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:10:14 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:10:25 IST" duration-ms="11619" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:49:51 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:50:10 IST" duration-ms="18271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginUIElements(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:10:25 IST" name="testLoginUIElements" data-provider="loginData" finished-at="2025-09-21T15:10:28 IST" duration-ms="2694" status="PASS">
+        <test-method signature="testLoginUIElements(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:50:10 IST" name="testLoginUIElements" data-provider="loginData" finished-at="2025-09-22T09:50:15 IST" duration-ms="5327" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -507,11 +507,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUIElements -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:10:28 IST" name="tearDown" finished-at="2025-09-21T15:10:29 IST" duration-ms="568" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:50:15 IST" name="tearDown" finished-at="2025-09-22T09:50:17 IST" duration-ms="2002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:10:29 IST" name="setup" finished-at="2025-09-21T15:10:44 IST" duration-ms="15173" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:50:17 IST" name="setup" finished-at="2025-09-22T09:50:26 IST" duration-ms="9274" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -522,11 +522,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:10:44 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:10:55 IST" duration-ms="11681" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:50:26 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:50:38 IST" duration-ms="11973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginUIElements(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:10:55 IST" name="testLoginUIElements" data-provider="loginData" finished-at="2025-09-21T15:10:58 IST" duration-ms="3008" status="PASS">
+        <test-method signature="testLoginUIElements(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:50:38 IST" name="testLoginUIElements" data-provider="loginData" finished-at="2025-09-22T09:50:44 IST" duration-ms="6007" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -542,11 +542,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginUIElements -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:10:58 IST" name="tearDown" finished-at="2025-09-21T15:10:59 IST" duration-ms="405" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:50:44 IST" name="tearDown" finished-at="2025-09-22T09:50:46 IST" duration-ms="2248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:10:59 IST" name="setup" finished-at="2025-09-21T15:11:08 IST" duration-ms="8809" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:50:46 IST" name="setup" finished-at="2025-09-22T09:50:56 IST" duration-ms="9686" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -557,19 +557,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:11:08 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:11:19 IST" duration-ms="11589" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:50:56 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:51:08 IST" duration-ms="12194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginWithInvalidMobile()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:11:19 IST" name="testLoginWithInvalidMobile" finished-at="2025-09-21T15:11:21 IST" duration-ms="1734" status="PASS">
+        <test-method signature="testLoginWithInvalidMobile()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:51:08 IST" name="testLoginWithInvalidMobile" finished-at="2025-09-22T09:51:13 IST" duration-ms="4255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithInvalidMobile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:11:21 IST" name="tearDown" finished-at="2025-09-21T15:11:21 IST" duration-ms="293" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:51:13 IST" name="tearDown" finished-at="2025-09-22T09:51:15 IST" duration-ms="2068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:11:21 IST" name="setup" finished-at="2025-09-21T15:11:28 IST" duration-ms="6853" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:51:15 IST" name="setup" finished-at="2025-09-22T09:51:24 IST" duration-ms="9193" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -580,11 +580,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:11:28 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:11:40 IST" duration-ms="11560" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:51:24 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:51:36 IST" duration-ms="12132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginWithValidMobile(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:11:40 IST" name="testLoginWithValidMobile" data-provider="loginData" finished-at="2025-09-21T15:11:42 IST" duration-ms="2682" status="PASS">
+        <test-method signature="testLoginWithValidMobile(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:51:36 IST" name="testLoginWithValidMobile" data-provider="loginData" finished-at="2025-09-22T09:51:41 IST" duration-ms="5372" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -600,11 +600,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidMobile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:11:42 IST" name="tearDown" finished-at="2025-09-21T15:11:43 IST" duration-ms="437" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:51:41 IST" name="tearDown" finished-at="2025-09-22T09:51:44 IST" duration-ms="2222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:11:43 IST" name="setup" finished-at="2025-09-21T15:11:48 IST" duration-ms="5252" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:51:44 IST" name="setup" finished-at="2025-09-22T09:51:51 IST" duration-ms="7155" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -615,11 +615,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:11:48 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:12:00 IST" duration-ms="11519" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:51:51 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:52:05 IST" duration-ms="14231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginWithValidMobile(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:12:00 IST" name="testLoginWithValidMobile" data-provider="loginData" finished-at="2025-09-21T15:12:02 IST" duration-ms="2643" status="PASS">
+        <test-method signature="testLoginWithValidMobile(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:52:05 IST" name="testLoginWithValidMobile" data-provider="loginData" finished-at="2025-09-22T09:52:11 IST" duration-ms="5820" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -635,11 +635,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidMobile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:12:02 IST" name="tearDown" finished-at="2025-09-21T15:12:03 IST" duration-ms="382" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:52:11 IST" name="tearDown" finished-at="2025-09-22T09:52:12 IST" duration-ms="842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:12:03 IST" name="setup" finished-at="2025-09-21T15:12:08 IST" duration-ms="5668" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:52:12 IST" name="setup" finished-at="2025-09-22T09:52:14 IST" duration-ms="1979" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -650,11 +650,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:12:08 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:12:20 IST" duration-ms="11594" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:52:14 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:52:30 IST" duration-ms="16597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testLoginWithValidMobile(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:12:20 IST" name="testLoginWithValidMobile" data-provider="loginData" finished-at="2025-09-21T15:12:23 IST" duration-ms="3360" status="PASS">
+        <test-method signature="testLoginWithValidMobile(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:52:30 IST" name="testLoginWithValidMobile" data-provider="loginData" finished-at="2025-09-22T09:52:35 IST" duration-ms="4911" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -670,13 +670,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidMobile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-21T15:12:23 IST" name="tearDown" finished-at="2025-09-21T15:12:24 IST" duration-ms="406" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@3f1d2e23]" started-at="2025-09-22T09:52:35 IST" name="tearDown" finished-at="2025-09-22T09:52:36 IST" duration-ms="596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.CityTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-21T15:12:24 IST" name="setup" finished-at="2025-09-21T15:12:29 IST" duration-ms="4890" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-22T09:52:36 IST" name="setup" finished-at="2025-09-22T09:52:43 IST" duration-ms="7349" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -687,15 +687,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testChangeLocation()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-21T15:12:29 IST" name="testChangeLocation" finished-at="2025-09-21T15:12:41 IST" duration-ms="12222" status="PASS">
+        <test-method signature="testChangeLocation()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-22T09:52:43 IST" name="testChangeLocation" finished-at="2025-09-22T09:52:57 IST" duration-ms="13695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testChangeLocation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-21T15:12:41 IST" name="tearDown" finished-at="2025-09-21T15:12:41 IST" duration-ms="385" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-22T09:52:57 IST" name="tearDown" finished-at="2025-09-22T09:52:57 IST" duration-ms="506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-21T15:12:41 IST" name="setup" finished-at="2025-09-21T15:12:46 IST" duration-ms="5049" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-22T09:52:57 IST" name="setup" finished-at="2025-09-22T09:52:59 IST" duration-ms="1284" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -706,15 +706,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSearchAndSelectCity()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-21T15:12:46 IST" name="testSearchAndSelectCity" finished-at="2025-09-21T15:12:58 IST" duration-ms="11542" status="PASS">
+        <test-method signature="testSearchAndSelectCity()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-22T09:52:59 IST" name="testSearchAndSelectCity" finished-at="2025-09-22T09:53:15 IST" duration-ms="16732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchAndSelectCity -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-21T15:12:58 IST" name="tearDown" finished-at="2025-09-21T15:12:58 IST" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-22T09:53:15 IST" name="tearDown" finished-at="2025-09-22T09:53:16 IST" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-21T15:12:58 IST" name="setup" finished-at="2025-09-21T15:13:03 IST" duration-ms="5253" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-22T09:53:16 IST" name="setup" finished-at="2025-09-22T09:53:20 IST" duration-ms="4214" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -725,15 +725,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSelectCityByIcon()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-21T15:13:03 IST" name="testSelectCityByIcon" finished-at="2025-09-21T15:13:04 IST" duration-ms="609" status="PASS">
+        <test-method signature="testSelectCityByIcon()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-22T09:53:20 IST" name="testSelectCityByIcon" finished-at="2025-09-22T09:53:20 IST" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSelectCityByIcon -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-21T15:13:04 IST" name="tearDown" finished-at="2025-09-21T15:13:04 IST" duration-ms="299" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-22T09:53:20 IST" name="tearDown" finished-at="2025-09-22T09:53:21 IST" duration-ms="515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-21T15:13:04 IST" name="setup" finished-at="2025-09-21T15:13:06 IST" duration-ms="1350" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-22T09:53:21 IST" name="setup" finished-at="2025-09-22T09:53:26 IST" duration-ms="4744" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -744,17 +744,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testViewAllCities()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-21T15:13:06 IST" name="testViewAllCities" finished-at="2025-09-21T15:13:11 IST" duration-ms="5075" status="PASS">
+        <test-method signature="testViewAllCities()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-22T09:53:26 IST" name="testViewAllCities" finished-at="2025-09-22T09:53:27 IST" duration-ms="1578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testViewAllCities -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-21T15:13:11 IST" name="tearDown" finished-at="2025-09-21T15:13:11 IST" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CityTest@5e21e98f]" started-at="2025-09-22T09:53:27 IST" name="tearDown" finished-at="2025-09-22T09:53:28 IST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CityTest -->
       <class name="tests.MovieTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-21T15:13:11 IST" name="setup" finished-at="2025-09-21T15:13:18 IST" duration-ms="7293" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-22T09:53:28 IST" name="setup" finished-at="2025-09-22T09:53:32 IST" duration-ms="4844" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -765,19 +765,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-21T15:13:18 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:13:30 IST" duration-ms="11467" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-22T09:53:32 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:53:44 IST" duration-ms="11555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testMovie8SelectRunningMovie()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-21T15:13:30 IST" name="testMovie8SelectRunningMovie" finished-at="2025-09-21T15:13:32 IST" duration-ms="2551" status="PASS">
+        <test-method signature="testMovie8SelectRunningMovie()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-22T09:53:44 IST" name="testMovie8SelectRunningMovie" finished-at="2025-09-22T09:53:46 IST" duration-ms="2364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMovie8SelectRunningMovie -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-21T15:13:32 IST" name="tearDown" finished-at="2025-09-21T15:13:33 IST" duration-ms="405" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-22T09:53:46 IST" name="tearDown" finished-at="2025-09-22T09:53:47 IST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-21T15:13:33 IST" name="setup" finished-at="2025-09-21T15:13:38 IST" duration-ms="5008" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-22T09:53:47 IST" name="setup" finished-at="2025-09-22T09:53:51 IST" duration-ms="4010" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -788,19 +788,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-21T15:13:38 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:13:49 IST" duration-ms="11498" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-22T09:53:51 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:54:02 IST" duration-ms="11691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testTopMenuNavigation()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-21T15:13:49 IST" name="testTopMenuNavigation" finished-at="2025-09-21T15:14:04 IST" duration-ms="15270" status="PASS">
+        <test-method signature="testTopMenuNavigation()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-22T09:54:02 IST" name="testTopMenuNavigation" finished-at="2025-09-22T09:54:19 IST" duration-ms="16539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTopMenuNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-21T15:14:04 IST" name="tearDown" finished-at="2025-09-21T15:14:05 IST" duration-ms="495" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-22T09:54:19 IST" name="tearDown" finished-at="2025-09-22T09:54:19 IST" duration-ms="355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-21T15:14:05 IST" name="setup" finished-at="2025-09-21T15:14:11 IST" duration-ms="5731" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-22T09:54:19 IST" name="setup" finished-at="2025-09-22T09:54:23 IST" duration-ms="3634" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -811,21 +811,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-21T15:14:11 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:14:22 IST" duration-ms="11533" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-22T09:54:23 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:54:34 IST" duration-ms="11372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testUpcomingAndNowShowing()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-21T15:14:22 IST" name="testUpcomingAndNowShowing" finished-at="2025-09-21T15:14:24 IST" duration-ms="2200" status="PASS">
+        <test-method signature="testUpcomingAndNowShowing()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-22T09:54:34 IST" name="testUpcomingAndNowShowing" finished-at="2025-09-22T09:54:35 IST" duration-ms="1294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpcomingAndNowShowing -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-21T15:14:24 IST" name="tearDown" finished-at="2025-09-21T15:14:25 IST" duration-ms="459" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MovieTest@51a9ad5e]" started-at="2025-09-22T09:54:35 IST" name="tearDown" finished-at="2025-09-22T09:54:36 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.MovieTest -->
       <class name="tests.GiftCardTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-21T15:14:25 IST" name="setup" finished-at="2025-09-21T15:14:30 IST" duration-ms="5361" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-22T09:54:36 IST" name="setup" finished-at="2025-09-22T09:54:40 IST" duration-ms="4549" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -836,19 +836,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-21T15:14:30 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:14:42 IST" duration-ms="11619" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-22T09:54:40 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:54:52 IST" duration-ms="11315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testGiftCardSection()[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-21T15:14:42 IST" name="testGiftCardSection" finished-at="2025-09-21T15:14:42 IST" duration-ms="589" status="PASS">
+        <test-method signature="testGiftCardSection()[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-22T09:54:52 IST" name="testGiftCardSection" finished-at="2025-09-22T09:54:52 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGiftCardSection -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-21T15:14:42 IST" name="tearDown" finished-at="2025-09-21T15:14:43 IST" duration-ms="388" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-22T09:54:52 IST" name="tearDown" finished-at="2025-09-22T09:54:52 IST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-21T15:14:43 IST" name="setup" finished-at="2025-09-21T15:14:48 IST" duration-ms="5061" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-22T09:54:52 IST" name="setup" finished-at="2025-09-22T09:54:56 IST" duration-ms="4116" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -859,15 +859,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-21T15:14:48 IST" name="setupPagesAndSelectCity" finished-at="2025-09-21T15:15:00 IST" duration-ms="11571" status="PASS">
+        <test-method is-config="true" signature="setupPagesAndSelectCity()[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-22T09:54:56 IST" name="setupPagesAndSelectCity" finished-at="2025-09-22T09:55:07 IST" duration-ms="11313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPagesAndSelectCity -->
-        <test-method signature="testInvalidGiftVoucher()[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-21T15:15:00 IST" name="testInvalidGiftVoucher" finished-at="2025-09-21T15:15:01 IST" duration-ms="1478" status="PASS">
+        <test-method signature="testInvalidGiftVoucher()[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-22T09:55:07 IST" name="testInvalidGiftVoucher" finished-at="2025-09-22T09:55:08 IST" duration-ms="1025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidGiftVoucher -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-21T15:15:01 IST" name="tearDown" finished-at="2025-09-21T15:15:01 IST" duration-ms="284" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GiftCardTest@72ade7e3]" started-at="2025-09-22T09:55:08 IST" name="tearDown" finished-at="2025-09-22T09:55:09 IST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
